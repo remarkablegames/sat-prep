@@ -16,13 +16,9 @@ Play the game on:
 
 ## Credits
 
-### Art
-
+- [Kenney](https://kenney.nl/assets/interface-sounds)
+- [Noraneko Games](https://noranekogames.itch.io/yumebackground)
 - [Uncle Mugen](https://lemmasoft.renai.us/forums/viewtopic.php?t=17302)
-
-### Audio
-
-- [Kenney Interface Sounds](https://kenney.nl/assets/interface-sounds)
 
 ## Prerequisites
 
@@ -36,6 +32,12 @@ Symlink `renpy`:
 
 ```sh
 sudo ln -sf "$(realpath renpy-sdk/renpy.sh)" /usr/local/bin/renpy
+```
+
+Check the version:
+
+```sh
+renpy --version
 ```
 
 ## Install

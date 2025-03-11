@@ -30,7 +30,10 @@ define config.version = "1.0.0-alpha" # x-release-please-version
 ## triple-quotes, and leave a blank line between paragraphs.
 
 define gui.about = _p("""
-{a=https://github.com/remarkablegames/sat-prep#credits}Credits{/a}
+Credits:
+{a=https://kenney.nl/assets/interface-sounds}Kenney{/a},
+{a=https://noranekogames.itch.io/yumebackground}Noraneko Games{/a},
+{a=https://lemmasoft.renai.us/forums/viewtopic.php?t=17302}Uncle Mugen{/a}
 """)
 
 
