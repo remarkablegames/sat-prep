@@ -1,18 +1,18 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/remarkablegames/renpy-template/master/game/gui/window_icon.png" alt="Renpy Template">
+  <img src="https://raw.githubusercontent.com/remarkablegames/sat-prep/master/game/gui/window_icon.png" alt="Renpy Template">
 </p>
 
 # Renpy Template
 
-![release](https://img.shields.io/github/v/release/remarkablegames/renpy-template)
-[![build](https://github.com/remarkablegames/renpy-template/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/renpy-template/actions/workflows/build.yml)
-[![lint](https://github.com/remarkablegames/renpy-template/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablegames/renpy-template/actions/workflows/lint.yml)
+![release](https://img.shields.io/github/v/release/remarkablegames/sat-prep)
+[![build](https://github.com/remarkablegames/sat-prep/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/sat-prep/actions/workflows/build.yml)
+[![lint](https://github.com/remarkablegames/sat-prep/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablegames/sat-prep/actions/workflows/lint.yml)
 
 📖 Write visual novels with Ren'Py Template.
 
 Play the game on:
 
-- [remarkablegames](https://remarkablegames.org/renpy-template)
+- [remarkablegames](https://remarkablegames.org/sat-prep)
 
 ## Credits
 
@@ -43,8 +43,8 @@ sudo ln -sf "$(realpath renpy-sdk/renpy.sh)" /usr/local/bin/renpy
 Clone the repository to the `Projects Directory`:
 
 ```sh
-git clone https://github.com/remarkablegames/renpy-template.git
-cd renpy-template
+git clone https://github.com/remarkablegames/sat-prep.git
+cd sat-prep
 ```
 
 Rename the project:
@@ -54,7 +54,7 @@ git grep -l 'Renpy Template' | xargs sed -i '' -e 's/Renpy Template/My Novel/g'
 ```
 
 ```sh
-git grep -l 'renpy-template' | xargs sed -i '' -e 's/renpy-template/my-novel/g'
+git grep -l 'sat-prep' | xargs sed -i '' -e 's/sat-prep/my-novel/g'
 ```
 
 Replace the assets:
