@@ -116,6 +116,36 @@
 
     nvl clear
 
+    """
+    4
+
+    {font=PTSerif.ttf}It is by no means _______ to recognize the influence
+    of Dutch painter Hieronymus Bosch on Ali
+    Banisadr’s paintings; indeed, Banisadr himself cites
+    Bosch as an inspiration. However, some scholars
+    have suggested that the ancient Mesopotamian poem
+    {i}Epic of Gilgamesh{/i} may have had a far greater impact
+    on Banisadr’s work.
+
+    {font=PTSerif.ttf}Which choice completes the text with the most
+    logical and precise word or phrase?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) substantial":
+            pass
+
+        "{font=PTSerif.ttf}B) satisfying":
+            pass
+
+        "{font=PTSerif.ttf}C) unimportant":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}D) appropriate":
+            pass
+
+    nvl clear
+
     # https://satsuite.collegeboard.org/media/pdf/scoring-sat-practice-test-4-digital.pdf
     """
     Reading and Writing Score: [reading_and_writing]/66
