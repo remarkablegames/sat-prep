@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/remarkablegames/sat-prep/master/game/gui/window_icon.png" alt="Renpy Template">
+  <img src="https://raw.githubusercontent.com/remarkablegames/sat-prep/master/game/gui/window_icon.png" alt="SAT Prep">
 </p>
 
-# Renpy Template
+# SAT Prep
 
 ![release](https://img.shields.io/github/v/release/remarkablegames/sat-prep)
 [![build](https://github.com/remarkablegames/sat-prep/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/sat-prep/actions/workflows/build.yml)
 [![lint](https://github.com/remarkablegames/sat-prep/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablegames/sat-prep/actions/workflows/lint.yml)
 
-📖 Write visual novels with Ren'Py Template.
+📖 SAT Prep
 
 Play the game on:
 
@@ -46,22 +46,6 @@ Clone the repository to the `Projects Directory`:
 git clone https://github.com/remarkablegames/sat-prep.git
 cd sat-prep
 ```
-
-Rename the project:
-
-```sh
-git grep -l 'Renpy Template' | xargs sed -i '' -e 's/Renpy Template/My Novel/g'
-```
-
-```sh
-git grep -l 'sat-prep' | xargs sed -i '' -e 's/sat-prep/my-novel/g'
-```
-
-Replace the assets:
-
-- [ ] `web-presplash.jpg`
-- [ ] `game/gui/main_menu.png`
-- [ ] `game/gui/window_icon.png`
 
 ## Run
 
