@@ -198,6 +198,55 @@
 
     nvl clear
 
+    """
+    6
+
+    {font=PTSerif.ttf}The following text is from the 1923 poem “Black
+    Finger” by Angelina Weld Grimké, a Black American
+    writer. A cypress is a type of evergreen tree.
+    """
+
+    quote """
+    {font=PTSerif.ttf}I have just seen a most beautiful thing,\n
+    Slim and still,\n
+    Against a gold, gold sky,\n
+    A straight black cypress,\n
+    Sensitive,\n
+    Exquisite,\n
+    A black finger\n
+    Pointing upwards.\n
+    Why, beautiful still finger, are you black?\n
+    And why are you pointing upwards?
+    """
+
+    nvl clear
+
+    """
+    {font=PTSerif.ttf}Which choice best describes the overall structure of
+    the text?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) The speaker assesses a natural phenomenon,\n
+        \ \ \ \ \ then questions the accuracy of her assessment.":
+            pass
+
+        "{font=PTSerif.ttf}B) The speaker describes a distinctive sight in\n
+        \ \ \ \ nature, then ponders what meaning to attribute\n
+        \ \ \ \ to that sight.":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}C) The speaker presents an outdoor scene, then\n
+        \ \ \ \ considers a human behavior occurring within\n
+        \ \ \ \ that scene.":
+            pass
+
+        "{font=PTSerif.ttf}D)  The speaker examines her surroundings, then\n
+        \ \ \ \ \ speculates about their influence on her\n
+        \ \ \ \ \ emotional state.":
+            pass
+
+    nvl clear
 
     scene bg hallway
 
