@@ -146,6 +146,59 @@
 
     nvl clear
 
+    """
+    5
+
+    {font=PTSerif.ttf}The following text is adapted from Susan Glaspell’s
+    1912 short story “‘Out There.’” An elderly shop
+    owner is looking at a picture that he recently
+    acquired and hopes to sell.
+    """
+
+    quote """
+    {font=PTSerif.ttf}It did seem that the picture failed to fit in with
+    the rest of the shop. A persuasive young fellow
+    who claimed he was closing out his stock let the
+    old man have it for what he called a song. It was
+    only a little out-of-the-way store which subsisted
+    chiefly on the framing of pictures. The old man
+    looked around at his views of the city, his
+    pictures of cats and dogs, his flaming bits of
+    landscape. “Don’t belong in here,” he fumed.
+
+    {font=PTSerif.ttf}And yet the old man was secretly proud of his
+    acquisition. There was a hidden dignity in his
+    scowling as he shuffled about pondering the least
+    ridiculous place for the picture.
+    """
+
+    nvl clear
+
+    """
+    {font=PTSerif.ttf}Which choice best states the main purpose of the
+    text?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) To reveal the shop owner’s conflicted feelings\n
+        \ \ \ \ \ about the new picture":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}B) To convey the shop owner’s resentment of the\n
+        \ \ \ \ person he got the new picture from":
+            pass
+
+        "{font=PTSerif.ttf}C) To describe the items that the shop owner most\n
+        \ \ \ \ \ highly prizes":
+            pass
+
+        "{font=PTSerif.ttf}D) To explain differences between the new picture\n
+        \ \ \ \ \ and other pictures in the shop":
+            pass
+
+    nvl clear
+
+
     scene bg hallway
 
     # https://satsuite.collegeboard.org/media/pdf/scoring-sat-practice-test-4-digital.pdf
