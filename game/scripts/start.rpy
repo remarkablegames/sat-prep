@@ -7,4 +7,4 @@ default math = 0
 
 label start:
 
-    jump practice_test_4
+    jump test4

@@ -1,13 +1,14 @@
-﻿label practice_test_4:
+﻿# https://satsuite.collegeboard.org/media/pdf/sat-practice-test-4-digital.pdf
+# https://satsuite.collegeboard.org/media/pdf/scoring-sat-practice-test-4-digital.pdf
+label test4:
+
+    nvl clear
 
     $ reading_and_writing = 0
     $ math = 0
 
     scene bg classroom
 
-    nvl clear
-
-    # https://satsuite.collegeboard.org/media/pdf/sat-practice-test-4-digital.pdf
     """
     Module 1
 
@@ -24,6 +25,10 @@
     All questions in this section are multiple-choice with four answer choices. Each question has a
     single best answer.
     """
+
+    jump test4_module1_question1
+
+label test4_module1_question1:
 
     nvl clear
 
@@ -55,6 +60,10 @@
         "{font=PTSerif.ttf}D) replaced":
             pass
 
+    jump test4_module1_question2
+
+label test4_module1_question2:
+
     nvl clear
 
     """
@@ -83,6 +92,10 @@
 
         "{font=PTSerif.ttf}D) mimic":
             pass
+
+    jump test4_module1_question3
+
+label test4_module1_question3:
 
     nvl clear
 
@@ -114,6 +127,10 @@
         "{font=PTSerif.ttf}D) useful":
             pass
 
+    jump test4_module1_question4
+
+label test4_module1_question4:
+
     nvl clear
 
     """
@@ -143,6 +160,10 @@
 
         "{font=PTSerif.ttf}D) appropriate":
             pass
+
+    jump test4_module1_question5
+
+label test4_module1_question5:
 
     nvl clear
 
@@ -196,6 +217,10 @@
         \ \ \ \ \ and other pictures in the shop":
             pass
 
+    jump test4_module1_question6
+
+label test4_module1_question6:
+
     nvl clear
 
     """
@@ -246,17 +271,18 @@
         \ \ \ \ \ emotional state.":
             pass
 
+    jump test4_score
+
+label test4_score:
+
     nvl clear
 
     scene bg hallway
 
-    # https://satsuite.collegeboard.org/media/pdf/scoring-sat-practice-test-4-digital.pdf
     """
     Reading and Writing Score: [reading_and_writing]/66
 
     Math Score: [math]/54
     """
-
-    nvl clear
 
     jump end
