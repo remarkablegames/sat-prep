@@ -326,6 +326,54 @@ label test4_module1_question7:
         \ \ \ \ \ him, then announces a grand ambition of his.":
             $ reading_and_writing += 1
 
+    jump test4_module1_question8
+
+label test4_module1_question8:
+
+    nvl clear
+
+    """
+    8
+
+    {font=PTSerif.ttf}The mimosa tree evolved in East Asia, where the
+    beetle {i}Bruchidius terrenus{/i} preys on its seeds. In 1785,
+    mimosa trees were introduced to North America, far
+    from any {i}B. terrenus{/i}. {u}But evolutionary links between
+    predators and their prey can persist across centuries
+    and continents.{/u} Around 2001, {i}B. terrenus{/i} was
+    introduced in southeastern North America near
+    where botanist Shu-Mei Chang and colleagues had
+    been monitoring mimosa trees. Within a year,
+    93 percent of the trees had been attacked by the
+    beetles.
+    """
+
+    nvl clear
+
+    """
+    {font=PTSerif.ttf}Which choice best describes the function of the third
+    sentence in the overall structure of the text?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) It states the hypothesis that Chang and\n
+        \ \ \ \ colleagues had set out to investigate using\n
+        \ \ \ \ mimosa trees and {i}B. terrenus{/i}.":
+            pass
+
+        "{font=PTSerif.ttf}B) It presents a generalization that is exemplified\n
+        \ \ \ \ by the discussion of the mimosa trees and\n
+        \ \ \ \ {i}B. terrenus{/i}.":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}C) It offers an alternative explanation for the\n
+        \ \ \ \ findings of Chang and colleagues.":
+            pass
+
+        "{font=PTSerif.ttf}D) It provides context that clarifies why the species\n
+        \ \ \ \ mentioned spread to new locations.":
+            pass
+
     jump test4_score
 
 label test4_score:
