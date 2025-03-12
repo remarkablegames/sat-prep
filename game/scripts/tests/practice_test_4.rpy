@@ -146,6 +146,8 @@
 
     nvl clear
 
+    scene bg hallway
+
     # https://satsuite.collegeboard.org/media/pdf/scoring-sat-practice-test-4-digital.pdf
     """
     Reading and Writing Score: [reading_and_writing]/66
