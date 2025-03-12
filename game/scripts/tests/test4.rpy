@@ -262,14 +262,69 @@ label test4_module1_question6:
             $ reading_and_writing += 1
 
         "{font=PTSerif.ttf}C) The speaker presents an outdoor scene, then\n
-        \ \ \ \ considers a human behavior occurring within\n
-        \ \ \ \ that scene.":
+        \ \ \ \ \ considers a human behavior occurring within\n
+        \ \ \ \ \ that scene.":
             pass
 
         "{font=PTSerif.ttf}D)  The speaker examines her surroundings, then\n
         \ \ \ \ \ speculates about their influence on her\n
         \ \ \ \ \ emotional state.":
             pass
+
+    jump test4_module1_question7
+
+label test4_module1_question7:
+
+    nvl clear
+
+    """
+    7
+
+    {font=PTSerif.ttf}The following text is from Walt Whitman’s 1860
+    poem “Calamus 24.”
+    """
+
+    quote """
+    {font=PTSerif.ttf}I HEAR it is charged against me that I seek to\n
+    \ \ \ \ destroy institutions;\n
+    But really I am neither for nor against\n
+    \ \ \ \ institutions\n
+    (What indeed have I in common with them?—\n
+    \ \ \ \ Or what with the destruction of them?),\n
+    Only I will establish in the Mannahatta\n
+    \ \ \ \ \[Manhattan\] and in every city of These States,\n
+    \ \ \ \ inland and seaboard,\n
+    And in the fields and woods, and above every\n
+    \ \ \ \ keel \[ship\] little or large, that dents the water,\n
+    Without edifices, or rules, or trustees, or any\n
+    \ \ \ \ argument,\n
+    The institution of the dear love of comrades.
+    """
+
+    nvl clear
+
+    """
+    {font=PTSerif.ttf}Which choice best describes the overall structure of
+    the text?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) The speaker questions an increasingly prevalent\n
+        \ \ \ \ \ attitude, then summarizes his worldview.":
+            pass
+
+        "{font=PTSerif.ttf}B) The speaker regrets his isolation from others,\n
+        \ \ \ \ \ then predicts a profound change in society.":
+            pass
+
+        "{font=PTSerif.ttf}C) The speaker concedes his personal\n
+        \ \ \ \ \ shortcomings, then boasts of his many\n
+        \ \ \ \ \ achievements.":
+            pass
+
+        "{font=PTSerif.ttf}D) The speaker addresses a criticism leveled against\n
+        \ \ \ \ \ him, then announces a grand ambition of his.":
+            $ reading_and_writing += 1
 
     jump test4_score
 
