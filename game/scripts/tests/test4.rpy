@@ -374,6 +374,69 @@ label test4_module1_question8:
         \ \ \ \ mentioned spread to new locations.":
             pass
 
+    jump test4_module1_question9
+
+label test4_module1_question9:
+
+    nvl clear
+
+    """
+    9
+
+    {font=PTSerif.ttf}{b}Text 1
+
+    {font=PTSerif.ttf}Conventional wisdom long held that human
+    social systems evolved in stages, beginning with
+    hunter-gatherers forming small bands of members
+    with roughly equal status. The shift to agriculture
+    about 12,000 years ago sparked population growth
+    that led to the emergence of groups with hierarchical
+    structures: associations of clans first, then chiefdoms,
+    and finally, bureaucratic states.
+
+    {font=PTSerif.ttf}{b}Text 2
+
+    {font=PTSerif.ttf}In a 2021 book, anthropologist David Graeber and
+    archaeologist David Wengrow maintain that humans
+    have always been socially flexible, alternately forming
+    systems based on hierarchy and collective ones with
+    decentralized leadership. The authors point to
+    evidence that as far back as 50,000 years ago some
+    hunter-gatherers adjusted their social structures
+    seasonally, at times dispersing in small groups but
+    also assembling into communities that included
+    esteemed individuals.
+    """
+
+    nvl clear
+
+    """
+    {font=PTSerif.ttf}Based on the texts, how would Graeber and
+    Wengrow (Text 2) most likely respond to the
+    “conventional wisdom” presented in Text 1?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) By conceding the importance of hierarchical\n
+        \ \ \ \ systems but asserting the greater significance of\n
+        \ \ \ \ decentralized collective societies":
+            pass
+
+        "{font=PTSerif.ttf}B) By disputing the idea that developments in social\n
+        \ \ \ \ structures have followed a linear progression\n
+        \ \ \ \ through distinct stages":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}C) By acknowledging that hierarchical roles likely\n
+        \ \ \ \ weren’t a part of social systems before the rise of\n
+        \ \ \ \ agriculture":
+            pass
+
+        "{font=PTSerif.ttf}D) By challenging the assumption that groupings of\n
+        \ \ \ \ hunter-gatherers were among the earliest forms\n
+        \ \ \ \ of social structure":
+            pass
+
     jump test4_score
 
 label test4_score:
