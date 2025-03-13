@@ -292,10 +292,10 @@ label test4_module1_question7:
     (What indeed have I in common with them?—\n
     \ \ \ \ Or what with the destruction of them?),\n
     Only I will establish in the Mannahatta\n
-    \ \ \ \ \[Manhattan\] and in every city of These States,\n
+    \ \ \ \ \[Manhattan] and in every city of These States,\n
     \ \ \ \ inland and seaboard,\n
     And in the fields and woods, and above every\n
-    \ \ \ \ keel \[ship\] little or large, that dents the water,\n
+    \ \ \ \ keel \[ship] little or large, that dents the water,\n
     Without edifices, or rules, or trustees, or any\n
     \ \ \ \ argument,\n
     The institution of the dear love of comrades.
@@ -525,6 +525,53 @@ label test4_module1_question11:
 
         "{font=PTSerif.ttf}D) It perseveres despite challenging circumstances.":
             pass
+
+    jump test4_module1_question12
+
+label test4_module1_question12:
+
+    nvl clear
+
+    """
+    12
+
+    {font=PTSerif.ttf}The following text is adapted from Jack London’s
+    1903 novel {i}The Call of the Wild{/i}. Buck is a sled dog
+    living with John Thornton in Yukon, Canada.
+    """
+
+    quote """
+    {font=PTSerif.ttf}Thornton alone held \[Buck]. The rest of
+    mankind was as nothing. Chance travellers
+    might praise or pet him; but he was cold under it
+    all, and from a too demonstrative man he would
+    get up and walk away. When Thornton’s
+    partners, Hans and Pete, arrived on the
+    long-expected raft, Buck refused to notice them
+    till he learned they were close to Thornton; after
+    that he tolerated them in a passive sort of way,
+    accepting favors from them as though he favored
+    them by accepting.
+    """
+
+    "{font=PTSerif.ttf}Which choice best states the main idea of the text?"
+
+    menu:
+        "{font=PTSerif.ttf}A) Buck has become less social since he began living
+        with Thornton.":
+            pass
+
+        "{font=PTSerif.ttf}B) Buck mistrusts humans and does his best to
+        avoid them.":
+            pass
+
+        "{font=PTSerif.ttf}C) Buck has been especially well liked by most of
+        Thornton’s friends.":
+            pass
+
+        "{font=PTSerif.ttf}D) Buck holds Thornton in higher regard than any
+        other person.":
+            $ reading_and_writing += 1
 
     jump test4_score
 
