@@ -437,6 +437,52 @@ label test4_module1_question9:
         \ \ \ \ of social structure":
             pass
 
+    jump test4_module1_question10
+
+label test4_module1_question10:
+
+    nvl clear
+
+    """
+    10
+
+    {font=PTSerif.ttf}The following text is adapted from Frances Hodgson
+    Burnett’s 1911 novel {i}The Secret Garden{/i}. Mary, a
+    young girl, recently found an overgrown hidden
+    garden.
+    """
+
+    quote """
+    {font=PTSerif.ttf}Mary was an odd, determined little person,
+    and now she had something interesting to be
+    determined about, she was very much absorbed,
+    indeed. She worked and dug and pulled up
+    weeds steadily, only becoming more pleased with
+    her work every hour instead of tiring of it. It
+    seemed to her like a fascinating sort of play.
+    """
+
+    """
+    {font=PTSerif.ttf}Which choice best states the main idea of the text?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) Mary hides in the garden to avoid doing her
+        chores.":
+            pass
+
+        "{font=PTSerif.ttf}B) Mary is getting bored with pulling up so many
+        weeds in the garden.":
+            pass
+
+        "{font=PTSerif.ttf}C) Mary is clearing out the garden to create a space
+        to play.":
+            pass
+
+        "{font=PTSerif.ttf}D) Mary feels very satisfied when she’s taking care
+        of the garden.":
+            $ reading_and_writing += 1
+
     jump test4_score
 
 label test4_score:
