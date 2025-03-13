@@ -462,9 +462,7 @@ label test4_module1_question10:
     seemed to her like a fascinating sort of play.
     """
 
-    """
-    {font=PTSerif.ttf}Which choice best states the main idea of the text?
-    """
+    "{font=PTSerif.ttf}Which choice best states the main idea of the text?"
 
     menu:
         "{font=PTSerif.ttf}A) Mary hides in the garden to avoid doing her
@@ -482,6 +480,51 @@ label test4_module1_question10:
         "{font=PTSerif.ttf}D) Mary feels very satisfied when she’s taking care
         of the garden.":
             $ reading_and_writing += 1
+
+    jump test4_module1_question11
+
+label test4_module1_question11:
+
+    nvl clear
+
+    """
+    11
+
+    {font=PTSerif.ttf}The following text is from Ezra Pound’s 1909 poem
+    “Hymn III,” based on the work of Marcantonio
+    Flaminio.
+    """
+
+    quote """
+    {font=PTSerif.ttf}As a fragile and lovely flower unfolds its gleaming\n
+    \ \ \ \ foliage on the breast of the fostering earth, if\n
+    \ \ \ \ the dew and the rain draw it forth;\n
+    So doth my tender mind flourish, if it be fed with the\n
+    \ \ \ \ sweet dew of the fostering spirit,\n
+    Lacking this, it beginneth straightway to languish,\n
+    \ \ \ \ even as a floweret born upon dry earth, if the\n
+    \ \ \ \ dew and the rain tend it not.
+    """
+
+    """
+    {font=PTSerif.ttf}Based on the text, in what way is the human mind
+    like a flower?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) It becomes increasingly vigorous with the
+        passage of time.":
+            pass
+
+        "{font=PTSerif.ttf}B) It draws strength from changes in the weather.":
+            pass
+
+        "{font=PTSerif.ttf}C) It requires proper nourishment in order to
+        thrive.":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}D) It perseveres despite challenging circumstances.":
+            pass
 
     jump test4_score
 
