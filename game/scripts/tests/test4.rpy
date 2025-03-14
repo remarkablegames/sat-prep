@@ -2,12 +2,14 @@
 # https://satsuite.collegeboard.org/media/pdf/scoring-sat-practice-test-4-digital.pdf
 label test4:
 
+    window hide
     nvl clear
 
     $ reading_and_writing = 0
     $ math = 0
 
-    scene bg classroom
+    scene bg classroom with dissolve
+    window show
 
     """
     Module 1
@@ -620,9 +622,11 @@ label test4_module1_question13:
 
 label test4_score:
 
+    window hide
     nvl clear
 
-    scene bg hallway
+    scene bg hallway with dissolve
+    window show
 
     """
     Reading and Writing Score: [reading_and_writing]/66
