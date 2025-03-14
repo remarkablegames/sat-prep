@@ -618,6 +618,62 @@ label test4_module1_question13:
         farms.":
             pass
 
+    jump test4_module1_question14
+
+label test4_module1_question14:
+
+    nvl clear
+
+    """
+    14
+
+    {font=PTSerif.ttf}Biologist Valentina Gómez-Bahamón and her team
+    have investigated two subspecies of the fork-tailed
+    flycatcher bird that live in the same region in
+    Colombia, but one subspecies migrates south for part
+    of the year, and the other doesn’t. The researchers
+    found that, due to slight differences in feather shape,
+    the feathers of migratory forked-tailed flycatcher
+    males make a sound during flight that is higher
+    pitched than that made by the feathers of
+    nonmigratory males. The researchers hypothesize
+    that fork-tailed flycatcher females are attracted to the
+    specific sound made by the males of their own
+    subspecies, and that over time the females’
+    preference will drive further genetic and anatomical
+    divergence between the subspecies.
+
+    {font=PTSerif.ttf}Which finding, if true, would most directly support
+    Gómez-Bahamón and her team’s hypothesis?
+    """
+
+    nvl clear
+
+    menu:
+        "{font=PTSerif.ttf}A) The feathers located on the wings of the\n
+        \ \ \ \ \ migratory fork-tailed flycatchers have a narrower\n
+        \ \ \ \ \ shape than those of the nonmigratory birds,\n
+        \ \ \ \ \ which allows them to fly long distances.":
+            pass
+
+        "{font=PTSerif.ttf}B) Over several generations, the sound made by the\n
+        \ \ \ \ feathers of migratory male fork-tailed flycatchers\n
+        \ \ \ \ grows progressively higher pitched relative to\n
+        \ \ \ \ that made by the feathers of nonmigratory\n
+        \ \ \ \ males.":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}C) Fork-tailed flycatchers communicate different\n
+        \ \ \ \ messages to each other depending on whether\n
+        \ \ \ \ their feathers create high-pitched or low-pitched\n
+        \ \ \ \ sounds.":
+            pass
+
+        "{font=PTSerif.ttf}D) The breeding habits of the migratory and\n
+        \ \ \ \ \ nonmigratory fork-tailed flycatchers remained\n
+        \ \ \ \ \ generally the same over several generations.":
+            pass
+
     jump test4_score
 
 label test4_score:
