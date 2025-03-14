@@ -49,6 +49,23 @@ git clone https://github.com/remarkablegames/sat-prep.git
 cd sat-prep
 ```
 
+_Optional:_ install the Python dependencies:
+
+```sh
+python3 -m venv venv
+source venv/bin/activate
+```
+
+```sh
+pip3 install -r requirements.txt
+```
+
+Generate the chart images:
+
+```sh
+python3 game/images/chart/chart.py
+```
+
 ## Run
 
 Launch the project:

@@ -573,6 +573,49 @@ label test4_module1_question12:
         other person.":
             $ reading_and_writing += 1
 
+    jump test4_module1_question13
+
+label test4_module1_question13:
+
+    nvl clear
+
+    "13"
+
+    show test4_module1_question13 at truecenter onlayer overlay
+
+    pause
+
+    """
+    {font=PTSerif.ttf}Organic farming is a method of growing food that
+    tries to reduce environmental harm by using natural
+    forms of pest control and avoiding fertilizers made
+    with synthetic materials. Organic farms are still a
+    small fraction of the total farms in the United States,
+    but they have been becoming more popular.
+    According to the US Department of Agriculture, in
+    2016 California had between 2,600 and 2,800 organic
+    farms and _______
+
+    {font=PTSerif.ttf}Which choice most effectively uses data from the
+    graph to complete the text?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) Washington had between 600 and 800 organic
+        farms.":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}B) New York had fewer than 800 organic farms.":
+            pass
+
+        "{font=PTSerif.ttf}C) Wisconsin and Iowa each had between 1,200 and
+        1,400 organic farms.":
+            pass
+
+        "{font=PTSerif.ttf}D) Pennsylvania had more than 1,200 organic
+        farms.":
+            pass
+
     jump test4_score
 
 label test4_score:
