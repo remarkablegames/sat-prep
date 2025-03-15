@@ -719,6 +719,62 @@ label test4_module1_question15:
         "{font=PTSerif.ttf}D) sodium from AST dust is 75\%.":
             pass
 
+    jump test4_module1_question16
+
+label test4_module1_question16:
+
+    nvl clear
+
+    """
+    16
+
+    {font=PTSerif.ttf}Art collectives, like the United States- and Vietnam-based 
+    collective The Propeller Group or Cuba’s Los
+    Carpinteros, are groups of artists who agree to work
+    together: perhaps for stylistic reasons, or to advance
+    certain shared political ideals, or to help mitigate the
+    costs of supplies and studio space. Regardless of
+    the reasons, art collectives usually involve some
+    collaboration among the artists. Based on a recent
+    series of interviews with various art collectives, an
+    arts journalist claims that this can be difficult for
+    artists who are often used to having sole control over
+    their work.
+
+    {font=PTSerif.ttf}Which quotation from the interviews best illustrates
+    the journalist’s claim?
+    """
+
+    nvl clear
+
+    menu:
+        "{font=PTSerif.ttf}A) “The first collective I joined included many\n
+        \ \ \ \ amazingly talented artists, and we enjoyed each\n
+        \ \ \ \ other’s company, but because we had a hard time\n
+        \ \ \ \ sharing credit and responsibility for our work,\n
+        \ \ \ \ the collective didn’t last.”":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}B)  “We work together, but that doesn’t mean that\n
+        \ \ \ \ individual projects are equally the work of all of\n
+        \ \ \ \ us. Many of our projects are primarily the\n
+        \ \ \ \ responsibility of whoever originally proposed the\n
+        \ \ \ \ work to the group.”":
+            pass
+
+        "{font=PTSerif.ttf}C) “Having worked as a member of a collective for\n
+        \ \ \ \ several years, it’s sometimes hard to recall what it\n
+        \ \ \ \ was like to work alone without the collective’s\n
+        \ \ \ \ support. But that support encourages my\n
+        \ \ \ \ individual expression rather than limits it.”":
+            pass
+
+        "{font=PTSerif.ttf}D) “Sometimes an artist from outside the collective\n
+        \ \ \ \ will choose to collaborate with us on a project,\n
+        \ \ \ \ but all of those projects fit within the larger\n
+        \ \ \ \ themes of the work the collective does on its own.”":
+            pass
+
     jump test4_score
 
 label test4_score:
