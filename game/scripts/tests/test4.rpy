@@ -775,6 +775,56 @@ label test4_module1_question16:
         \ \ \ \ themes of the work the collective does on its own.”":
             pass
 
+    jump test4_module1_question17
+
+label test4_module1_question17:
+
+    nvl clear
+
+    "17"
+
+    show test4_module1_question17 at truecenter onlayer overlay
+
+    pause
+
+    """
+    {font=PTSerif.ttf}Mycorrhizal fungi in soil benefits many plants, substantially increasing
+    the mass of some. A student conducted an experiment to illustrate this
+    effect. The student chose three plant species for the experiment,
+    including two that are mycorrhizal hosts (species known to benefit
+    from mycorrhizal fungi) and one nonmycorrhizal species (a species
+    that doesn’t benefit from and may even be harmed by mycorrhizal
+    fungi). The student then grew several plants from each species both in
+    soil containing mycorrhizal fungi and in soil that had been treated to
+    kill mycorrhizal and other fungi. After several weeks, the student
+    measured the plants’ average mass and was surprised to discover
+    that _______
+
+    {font=PTSerif.ttf}Which choice most effectively uses data from the table to complete the
+    statement?
+    """
+
+    nvl clear
+
+    menu:
+        "{font=PTSerif.ttf}A) broccoli grown in soil containing mycorrhizal fungi had a slightly\n
+        \ \ \ \ higher average mass than broccoli grown in soil that had been\n
+        \ \ \ \ treated to kill fungi.":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}B) corn grown in soil containing mycorrhizal fungi had a higher\n
+        \ \ \ \ average mass than broccoli grown in soil containing mycorrhizal fungi.":
+            pass
+
+        "{font=PTSerif.ttf}C) marigolds grown in soil containing mycorrhizal fungi had a much\n
+        \ \ \ \ higher average mass than marigolds grown in soil that had been\n
+        \ \ \ \ treated to kill fungi.":
+            pass
+
+        "{font=PTSerif.ttf}D) corn had the highest average mass of all three species grown in soil\n
+        \ \ \ \ that had been treated to kill fungi, while marigolds had the lowest.":
+            pass
+
     jump test4_score
 
 label test4_score:
