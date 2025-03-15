@@ -195,12 +195,12 @@ label test4_module1_question5:
     ridiculous place for the picture.
     """
 
-    nvl clear
-
     """
     {font=PTSerif.ttf}Which choice best states the main purpose of the
     text?
     """
+
+    nvl clear
 
     menu:
         "{font=PTSerif.ttf}A) To reveal the shop owner’s conflicted feelings\n
@@ -246,12 +246,12 @@ label test4_module1_question6:
     And why are you pointing upwards?
     """
 
-    nvl clear
-
     """
     {font=PTSerif.ttf}Which choice best describes the overall structure of
     the text?
     """
+
+    nvl clear
 
     menu:
         "{font=PTSerif.ttf}A) The speaker assesses a natural phenomenon,\n
@@ -303,12 +303,12 @@ label test4_module1_question7:
     The institution of the dear love of comrades.
     """
 
-    nvl clear
-
     """
     {font=PTSerif.ttf}Which choice best describes the overall structure of
     the text?
     """
+
+    nvl clear
 
     menu:
         "{font=PTSerif.ttf}A) The speaker questions an increasingly prevalent\n
@@ -348,14 +348,12 @@ label test4_module1_question8:
     been monitoring mimosa trees. Within a year,
     93 percent of the trees had been attacked by the
     beetles.
-    """
 
-    nvl clear
-
-    """
     {font=PTSerif.ttf}Which choice best describes the function of the third
     sentence in the overall structure of the text?
     """
+
+    nvl clear
 
     menu:
         "{font=PTSerif.ttf}A) It states the hypothesis that Chang and\n
@@ -410,13 +408,13 @@ label test4_module1_question9:
     esteemed individuals.
     """
 
-    nvl clear
-
     """
     {font=PTSerif.ttf}Based on the texts, how would Graeber and
     Wengrow (Text 2) most likely respond to the
     “conventional wisdom” presented in Text 1?
     """
+
+    nvl clear
 
     menu:
         "{font=PTSerif.ttf}A) By conceding the importance of hierarchical\n
