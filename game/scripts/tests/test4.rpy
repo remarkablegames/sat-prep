@@ -674,6 +674,53 @@ label test4_module1_question14:
         \ \ \ \ \ generally the same over several generations.":
             pass
 
+    jump test4_module1_question15
+
+label test4_module1_question15:
+
+    nvl clear
+
+    "15"
+
+    show test4_module1_question15 at truecenter onlayer overlay
+
+    pause
+
+    """
+    {font=PTSerif.ttf}Earth’s atmosphere is bombarded by cosmic dust
+    originating from several sources: short-period
+    comets (SPCs), particles from the asteroid belt
+    (ASTs), Halley-type comets (HTCs), and Oort cloud
+    comets (OCCs). Some of the dust’s material
+    vaporizes in the atmosphere in a process called
+    ablation, and the faster the particles move, the higher
+    the rate of ablation. Astrophysicist Juan Diego
+    Carrillo-Sánchez led a team that calculated average
+    ablation rates for elements in the dust (such as iron
+    and potassium) and showed that material in slower-
+    moving SPC or AST dust has a lower rate than the
+    same material in faster-moving HTC or OCC dust.
+    For example, whereas the average ablation rate
+    for iron from AST dust is 28\%, the average rate
+    for _______
+
+    {font=PTSerif.ttf}Which choice most effectively uses data from the
+    table to complete the example?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) iron from SPC dust is 20\%.":
+            pass
+
+        "{font=PTSerif.ttf}B) sodium from OCC dust is 100\%.":
+            pass
+
+        "{font=PTSerif.ttf}C) iron from HTC dust is 90\%.":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}D) sodium from AST dust is 75\%.":
+            pass
+
     jump test4_score
 
 label test4_score:
