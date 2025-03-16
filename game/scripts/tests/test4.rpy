@@ -930,6 +930,41 @@ label test4_module1_question20:
         "{font=PTSerif.ttf}D) survives":
             $ reading_and_writing += 1
 
+    jump test4_module1_question21
+
+label test4_module1_question21:
+
+    nvl clear
+
+    """
+    21
+
+    {font=PTSerif.ttf}After a spate of illnesses as a child, Wilma Rudolph
+    was told she might never walk again. Defying all
+    odds, Rudolph didn’t just walk, she _______ the
+    1960 Summer Olympics in Rome, she won both the
+    100- and 200-meter dashes and clinched first place
+    for her team in the 4 ×100-meter relay, becoming
+    the first US woman to win three gold medals in a
+    single Olympics.
+
+    {font=PTSerif.ttf}Which choice completes the text so that it conforms
+    to the conventions of Standard English?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) ran—fast—during":
+            pass
+
+        "{font=PTSerif.ttf}B) ran—fast during":
+            pass
+
+        "{font=PTSerif.ttf}C) ran—fast, during":
+            pass
+
+        "{font=PTSerif.ttf}D) ran—fast. During":
+            $ reading_and_writing += 1
+
     jump test4_score
 
 label test4_score:
