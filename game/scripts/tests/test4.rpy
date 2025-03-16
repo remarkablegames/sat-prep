@@ -1207,6 +1207,41 @@ label test4_module1_question28:
         "{font=PTSerif.ttf}D) However,":
             $ reading_and_writing += 1
 
+    jump test4_module1_question29
+
+label test4_module1_question29:
+
+    nvl clear
+
+    """
+    29
+
+    {font=PTSerif.ttf}Samuel Coleridge-Taylor was a prominent classical
+    music composer from England who toured the US
+    three times in the early 1900s. The child of a West
+    African father and an English mother, Coleridge-Taylor
+    emphasized his mixed-race ancestry. For
+    example, he referred to himself as Anglo-African.
+    _______ he incorporated the sounds of traditional
+    African music into his classical music compositions.
+
+    {font=PTSerif.ttf}Which choice completes the text with the most
+    logical transition?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) In addition,":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}B) Actually,":
+            pass
+
+        "{font=PTSerif.ttf}C) However,":
+            pass
+
+        "{font=PTSerif.ttf}D) Regardless,":
+            pass
+
     jump test4_score
 
 label test4_score:
