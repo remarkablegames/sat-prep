@@ -1138,6 +1138,41 @@ label test4_module1_question26:
         "{font=PTSerif.ttf}D) single-handedly however":
             pass
 
+    jump test4_module1_question27
+
+label test4_module1_question27:
+
+    nvl clear
+
+    """
+    27
+
+    {font=PTSerif.ttf}In 1968, US Congressman John Conyers introduced
+    a bill to establish a national holiday in honor of
+    Dr. Martin Luther King Jr. The bill didn’t make it to
+    a vote, but Conyers was determined. He teamed up
+    with Shirley Chisholm, the first Black woman to be
+    elected to Congress, and they resubmitted the bill
+    every session for the next fifteen years. _______ in
+    1983, the bill passed.
+
+    {font=PTSerif.ttf}Which choice completes the text with the most
+    logical transition?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) Instead,":
+            pass
+
+        "{font=PTSerif.ttf}B) Likewise,":
+            pass
+
+        "{font=PTSerif.ttf}C) Finally,":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}D) Additionally,":
+            pass
+
     jump test4_score
 
 label test4_score:
