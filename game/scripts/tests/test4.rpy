@@ -825,6 +825,45 @@ label test4_module1_question17:
         \ \ \ \ that had been treated to kill fungi, while marigolds had the lowest.":
             pass
 
+    jump test4_module1_question18
+
+label test4_module1_question18:
+
+    nvl clear
+
+    """
+    18
+
+    {font=PTSerif.ttf}Several artworks found among the ruins of the
+    ancient Roman city of Pompeii depict a female figure
+    fishing with a cupid nearby. Some scholars have
+    asserted that the figure is the goddess Venus, since
+    she is known to have been linked with cupids in
+    Roman culture, but University of Leicester
+    archaeologist Carla Brain suggests that cupids may
+    have also been associated with fishing generally. The
+    fact that a cupid is shown near the female figure,
+    therefore, _______
+
+    {font=PTSerif.ttf}Which choice most logically completes the text?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) is not conclusive evidence that the figure is
+        Venus.":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}B) suggests that Venus was often depicted fishing.":
+            pass
+
+        "{font=PTSerif.ttf}C) eliminates the possibility that the figure is
+        Venus.":
+            pass
+
+        "{font=PTSerif.ttf}D) would be difficult to account for if the figure is
+        not Venus.":
+            pass
+
     jump test4_score
 
 label test4_score:
