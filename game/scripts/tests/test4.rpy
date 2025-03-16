@@ -1097,10 +1097,45 @@ label test4_module1_question25:
         "{font=PTSerif.ttf}B) species, both native and nonnative;":
             $ reading_and_writing += 1
 
-        "{font=PTSerif.ttf}C)  species; both native and nonnative,":
+        "{font=PTSerif.ttf}C) species; both native and nonnative,":
             pass
 
-        "{font=PTSerif.ttf}D)  species both native and nonnative,":
+        "{font=PTSerif.ttf}D) species both native and nonnative,":
+            pass
+
+    jump test4_module1_question26
+
+label test4_module1_question26:
+
+    nvl clear
+
+    """
+    26
+
+    {font=PTSerif.ttf}Sociologist Alton Okinaka sits on the review board
+    tasked with adding new sites to the Hawai‘i Register
+    of Historic Places, which includes Pi‘ilanihale
+    Heiau and the ‘Ōpaeka‘a Road Bridge. Okinaka
+    doesn’t make such decisions _______ all historical
+    designations must be approved by a group of nine
+    other experts from the fields of architecture,
+    archaeology, history, and Hawaiian culture.
+
+    {font=PTSerif.ttf}Which choice completes the text so that it conforms
+    to the conventions of Standard English?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) single-handedly, however;":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}B) single-handedly; however,":
+            pass
+
+        "{font=PTSerif.ttf}C) single-handedly, however,":
+            pass
+
+        "{font=PTSerif.ttf}D) single-handedly however":
             pass
 
     jump test4_score
