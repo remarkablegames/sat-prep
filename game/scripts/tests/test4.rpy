@@ -1000,6 +1000,39 @@ label test4_module1_question22:
         "{font=PTSerif.ttf}D) is":
             $ reading_and_writing += 1
 
+    jump test4_module1_question23
+
+label test4_module1_question23:
+
+    nvl clear
+
+    """
+    23
+
+    {font=PTSerif.ttf}Seneca sculptor Marie Watt’s blanket art comes in a
+    range of shapes and sizes. In 2004, Watt sewed strips
+    of blankets together to craft a 10-by-13-inch
+    _______ in 2014, she arranged folded blankets into
+    two large stacks and then cast them in bronze,
+    creating two curving 18-foot-tall blue-bronze pillars.
+
+    {font=PTSerif.ttf}Which choice completes the text so that it conforms
+    to the conventions of Standard English?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) sampler later,":
+            pass
+
+        "{font=PTSerif.ttf}B) sampler;":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}C) sampler,":
+            pass
+
+        "{font=PTSerif.ttf}D) sampler, later,":
+            pass
+
     jump test4_score
 
 label test4_score:
