@@ -1173,6 +1173,40 @@ label test4_module1_question27:
         "{font=PTSerif.ttf}D) Additionally,":
             pass
 
+    jump test4_module1_question28
+
+label test4_module1_question28:
+
+    nvl clear
+
+    """
+    28
+
+    {font=PTSerif.ttf}Geoscientists have long considered Hawaii’s Mauna
+    Loa volcano to be Earth’s largest shield volcano by
+    volume, measuring approximately 74,000 cubic
+    kilometers. _______ according to a 2020 study by
+    local geoscientist Michael Garcia, Hawaii’s
+    Pūhāhonu shield volcano is significantly larger,
+    boasting a volume of about 148,000 cubic kilometers.
+
+    {font=PTSerif.ttf}Which choice completes the text with the most
+    logical transition?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) Secondly,":
+            pass
+
+        "{font=PTSerif.ttf}B) Consequently,":
+            pass
+
+        "{font=PTSerif.ttf}C) Moreover,":
+            pass
+
+        "{font=PTSerif.ttf}D) However,":
+            $ reading_and_writing += 1
+
     jump test4_score
 
 label test4_score:
