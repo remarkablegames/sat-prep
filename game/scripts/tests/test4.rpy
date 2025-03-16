@@ -1242,6 +1242,43 @@ label test4_module1_question29:
         "{font=PTSerif.ttf}D) Regardless,":
             pass
 
+    jump test4_module1_question30
+
+label test4_module1_question30:
+
+    nvl clear
+
+    """
+    30
+
+    {font=PTSerif.ttf}In 2019, researcher Patricia Jurado Gonzalez and
+    food historian Nawal Nasrallah prepared a stew from
+    a 4,000-year-old recipe found on a Mesopotamian
+    clay tablet. When they tasted the dish, known as
+    {i}pašrūtum{/i} (“unwinding”), they found that it had a
+    mild taste and inspired a sense of calm. _______ the
+    researchers, knowing that dishes were sometimes
+    named after their intended effects, theorized that the
+    dish’s name, “unwinding,” referred to its function: to
+    help ancient diners relax.
+
+    {font=PTSerif.ttf}Which choice completes the text with the most
+    logical transition?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) Therefore,":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}B) Alternately,":
+            pass
+
+        "{font=PTSerif.ttf}C) Nevertheless,":
+            pass
+
+        "{font=PTSerif.ttf}D) Likewise,":
+            pass
+
     jump test4_score
 
 label test4_score:
