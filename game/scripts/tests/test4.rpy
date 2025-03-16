@@ -1279,6 +1279,60 @@ label test4_module1_question30:
         "{font=PTSerif.ttf}D) Likewise,":
             pass
 
+    jump test4_module1_question31
+
+label test4_module1_question31:
+
+    nvl clear
+
+    """
+    31
+
+    {font=PTSerif.ttf}While researching a topic, a student has taken the
+    following notes:
+
+    {font=PTSerif.ttf}• Chemical leavening agents cause carbon dioxide
+    to be released within a liquid batter, making the
+    batter rise as it bakes.\n
+    • Baking soda and baking powder are chemical
+    leavening agents.\n
+    • Baking soda is pure sodium bicarbonate.\n
+    • To produce carbon dioxide, baking soda needs to
+    be mixed with liquid and an acidic ingredient such
+    as honey.\n
+    • Baking powder is a mixture of sodium bicarbonate
+    and an acid.\n
+    • To produce carbon dioxide, baking powder needs
+    to be mixed with liquid but not with an acidic
+    ingredient.
+
+    {font=PTSerif.ttf}The student wants to emphasize a difference between
+    baking soda and baking powder. Which choice most
+    effectively uses relevant information from the notes
+    to accomplish this goal?
+    """
+
+    nvl clear
+
+    menu:
+        "{font=PTSerif.ttf}A) To make batters rise, bakers use chemical leavening agents\n
+        \ \ \ \ such as baking soda and baking powder.":
+            pass
+
+        "{font=PTSerif.ttf}B) Baking soda and baking powder are chemical leavening agents\n
+        \ \ \ \ that, when mixed with other ingredients cause carbon dioxide\n
+        \ \ \ \ to be released within a batter.":
+            pass
+
+        "{font=PTSerif.ttf}C) Baking soda is pure sodium bicarbonate, and honey is a\n
+        \ \ \ \ type of acidic ingredient.":
+            pass
+
+        "{font=PTSerif.ttf}D) To produce carbon dioxide within a liquid batter, baking soda\n
+        \ \ \ \ needs to be mixed with an acidic ingredient, whereas baking\n
+        \ \ \ \ powder does not.":
+            $ reading_and_writing += 1
+
     jump test4_score
 
 label test4_score:
