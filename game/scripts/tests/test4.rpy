@@ -864,6 +864,39 @@ label test4_module1_question18:
         not Venus.":
             pass
 
+    jump test4_module1_question19
+
+label test4_module1_question19:
+
+    nvl clear
+
+    """
+    19
+
+    {font=PTSerif.ttf}Literary agents estimate that more than half of all
+    nonfiction books credited to a celebrity or other
+    public figure are in fact written by ghostwriters,
+    professional authors who are paid to write other
+    _______ but whose names never appear on book
+    covers.
+
+    {font=PTSerif.ttf}Which choice completes the text so that it conforms
+    to the conventions of Standard English?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) people’s stories":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}B) peoples story’s":
+            pass
+
+        "{font=PTSerif.ttf}C) peoples stories":
+            pass
+
+        "{font=PTSerif.ttf}D) people’s story’s":
+            pass
+
     jump test4_score
 
 label test4_score:
