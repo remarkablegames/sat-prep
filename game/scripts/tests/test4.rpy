@@ -1070,6 +1070,39 @@ label test4_module1_question24:
         Julian in 1935 and":
             pass
 
+    jump test4_module1_question25
+
+label test4_module1_question25:
+
+    nvl clear
+
+    """
+    25
+
+    {font=PTSerif.ttf}The Arctic-Alpine Botanic Garden in Norway and
+    the Jardim Botânico of Rio de Janeiro in Brazil are
+    two of many botanical gardens around the world
+    dedicated to growing diverse plant _______
+    fostering scientific research; and educating the public
+    about plant conservation.
+
+    {font=PTSerif.ttf}Which choice completes the text so that it conforms
+    to the conventions of Standard English?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) species, both native and nonnative,":
+            pass
+
+        "{font=PTSerif.ttf}B) species, both native and nonnative;":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}C)  species; both native and nonnative,":
+            pass
+
+        "{font=PTSerif.ttf}D)  species both native and nonnative,":
+            pass
+
     jump test4_score
 
 label test4_score:
