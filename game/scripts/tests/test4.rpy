@@ -1033,6 +1033,43 @@ label test4_module1_question23:
         "{font=PTSerif.ttf}D) sampler, later,":
             pass
 
+    jump test4_module1_question24
+
+label test4_module1_question24:
+
+    nvl clear
+
+    """
+    24
+
+    {font=PTSerif.ttf}African American Percy Julian was a scientist and
+    entrepreneur whose work helped people around the
+    world to see. Named in 1999 as one of the greatest
+    achievements by a US chemist in the past hundred
+    years, _______ led to the first mass-produced
+    treatment for glaucoma.
+
+    {font=PTSerif.ttf}Which choice completes the text so that it conforms
+    to the conventions of Standard English?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) Julian synthesized the alkaloid physostigmine in
+        1935; it":
+            pass
+
+        "{font=PTSerif.ttf}B) in 1935 Julian synthesized the alkaloid
+        physostigmine, which":
+            pass
+
+        "{font=PTSerif.ttf}C) Julian’s 1935 synthesis of the alkaloid
+        physostigmine":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}D) the alkaloid physostigmine was synthesized by
+        Julian in 1935 and":
+            pass
+
     jump test4_score
 
 label test4_score:
