@@ -965,6 +965,41 @@ label test4_module1_question21:
         "{font=PTSerif.ttf}D) ran—fast. During":
             $ reading_and_writing += 1
 
+    jump test4_module1_question22
+
+label test4_module1_question22:
+
+    nvl clear
+
+    """
+    22
+
+    {font=PTSerif.ttf}In many of her landscape paintings from the 1970s
+    and 1980s, Lebanese American artist Etel Adnan
+    worked to capture the essence of California’s
+    fog-shrouded Mount Tamalpais region through
+    abstraction, using splotches of color to represent
+    the area’s features. Interestingly, the triangle
+    representing the mountain itself _______ among the
+    few defined figures in her paintings.
+
+    {font=PTSerif.ttf}Which choice completes the text so that it conforms
+    to the conventions of Standard English?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) are":
+            pass
+
+        "{font=PTSerif.ttf}B) have been":
+            pass
+
+        "{font=PTSerif.ttf}C) were":
+            pass
+
+        "{font=PTSerif.ttf}D) is":
+            $ reading_and_writing += 1
+
     jump test4_score
 
 label test4_score:
