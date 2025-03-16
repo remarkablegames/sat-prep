@@ -897,6 +897,39 @@ label test4_module1_question19:
         "{font=PTSerif.ttf}D) people’s story’s":
             pass
 
+    jump test4_module1_question20
+
+label test4_module1_question20:
+
+    nvl clear
+
+    """
+    20
+
+    {font=PTSerif.ttf}Like other amphibians, the wood frog ({i}Rana
+    sylvatica{/i}) is unable to generate its own heat, so
+    during periods of subfreezing temperatures, it
+    _______ by producing large amounts of glucose, a
+    sugar that helps prevent damaging ice from forming
+    inside its cells.
+
+    {font=PTSerif.ttf}Which choice completes the text so that it conforms
+    to the conventions of Standard English?
+    """
+
+    menu:
+        "{font=PTSerif.ttf}A) had survived":
+            pass
+
+        "{font=PTSerif.ttf}B) survived":
+            pass
+
+        "{font=PTSerif.ttf}C) would survive":
+            pass
+
+        "{font=PTSerif.ttf}D) survives":
+            $ reading_and_writing += 1
+
     jump test4_score
 
 label test4_score:
