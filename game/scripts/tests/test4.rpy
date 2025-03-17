@@ -1333,6 +1333,56 @@ label test4_module1_question31:
         \ \ \ \ powder does not.":
             $ reading_and_writing += 1
 
+    jump test4_module1_question32
+
+label test4_module1_question32:
+
+    nvl clear
+
+    """
+    32
+
+    {font=PTSerif.ttf}While researching a topic, a student has taken the
+    following notes:
+
+    {font=PTSerif.ttf}• Soo Sunny Park is a Korean American artist who
+    uses light as her primary medium of expression.\n
+    • She created her work {i}Unwoven Light{/i} in 2013.\n
+    • {i}Unwoven Light{/i} featured a chain-link fence fitted
+    with iridescent plexiglass tiles.\n
+    • When light passed through the fence, colorful
+    prisms formed.
+
+    {font=PTSerif.ttf}The student wants to describe {i}Unwoven Light{/i} to an
+    audience unfamiliar with Soo Sunny Park. Which
+    choice most effectively uses relevant information
+    from the notes to accomplish this goal?
+    """
+
+    nvl clear
+
+    menu:
+        "{font=PTSerif.ttf}A) Park’s 2013 installation {i}Unwoven Light{/i}, which\n
+        \ \ \ \ included a chain-link fence and iridescent tiles\n
+        \ \ \ \ made from plexiglass, featured light as its\n
+        \ \ \ \ primary medium of expression.":
+            pass
+
+        "{font=PTSerif.ttf}B) Korean American light artist Soo Sunny Park\n
+        \ \ \ \ created {i}Unwoven Light{/i} in 2013.":
+            pass
+
+        "{font=PTSerif.ttf}C)  The chain-link fence in Soo Sunny Park’s\n
+        \ \ \ \ {i}Unwoven Light{/i} was fitted with tiles made from\n
+        \ \ \ \ iridescent plexiglass.":
+            pass
+
+        "{font=PTSerif.ttf}D) In {i}Unwoven Light{/i}, a 2013 work by Korean\n
+        \ \ \ \ American artist Soo Sunny Park, light formed\n
+        \ \ \ \ colorful prisms as it passed through a fence Park\n
+        \ \ \ \ had fitted with iridescent tiles.":
+            $ reading_and_writing += 1
+
     jump test4_score
 
 label test4_score:
