@@ -1,4 +1,5 @@
 ﻿# https://satsuite.collegeboard.org/media/pdf/sat-practice-test-4-digital.pdf
+# https://satsuite.collegeboard.org/media/pdf/sat-practice-test-4-answers-digital.pdf
 # https://satsuite.collegeboard.org/media/pdf/scoring-sat-practice-test-4-digital.pdf
 label test4:
 
@@ -51,16 +52,45 @@ label test4_module1_question1:
 
     menu:
         "{font=PTSerif.ttf}A) attached":
-            pass
+            """
+            ❌
+            {i}Choice A{/i} is incorrect because in this context “attached” means connected or
+            affixed. The text indicates that OSIRIS-REx gathered pieces of 101955 Bennu to
+            bring to Earth; it doesn’t suggest that the spacecraft attached anything to the
+            asteroid.
+            """
 
         "{font=PTSerif.ttf}B) collected":
             $ reading_and_writing += 1
 
+            """
+            ✅
+            {b}Choice B{/b} is the best answer because it most logically completes the text’s
+            discussion of the OSIRIS-REx spacecraft’s contact with the asteroid 101955
+            Bennu. In this context, “collected” means acquired and took away. The text
+            indicates that although the boulders on the asteroid’s surface caused some
+            unforeseen problems, OSIRIS-REx was able to gather a sample to return to
+            Earth. This context suggests that OSIRIS-REx successfully collected a sample of
+            101955 Bennu.
+            """
+
         "{font=PTSerif.ttf}C) followed":
-            pass
+            """
+            ❌
+            {i}Choice C{/i} is incorrect because in this context “followed” means tracked
+            or traveled behind and the text discusses OSIRIS-REx’s brief encounter with
+            101955 Bennu during which the spacecraft gathered a sample to bring to Earth.
+            The text doesn’t suggest that the spacecraft tracked the sample, and it’s not clear
+            what it would mean for the spacecraft to travel behind the sample it collected.
+            """
 
         "{font=PTSerif.ttf}D) replaced":
-            pass
+            """
+            ❌
+            {i}Choice D{/i} is incorrect because in this context “replaced” means put back or
+            returned. The text indicates that OSIRIS-REx gathered pieces of 101955 Bennu to
+            bring to Earth but doesn’t suggest that anything was returned to the asteroid.
+            """
 
     jump test4_module1_question2
 
