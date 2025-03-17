@@ -1372,7 +1372,7 @@ label test4_module1_question32:
         \ \ \ \ created {i}Unwoven Light{/i} in 2013.":
             pass
 
-        "{font=PTSerif.ttf}C)  The chain-link fence in Soo Sunny Park’s\n
+        "{font=PTSerif.ttf}C) The chain-link fence in Soo Sunny Park’s\n
         \ \ \ \ {i}Unwoven Light{/i} was fitted with tiles made from\n
         \ \ \ \ iridescent plexiglass.":
             pass
@@ -1382,6 +1382,60 @@ label test4_module1_question32:
         \ \ \ \ colorful prisms as it passed through a fence Park\n
         \ \ \ \ had fitted with iridescent tiles.":
             $ reading_and_writing += 1
+
+    jump test4_module1_question33
+
+label test4_module1_question33:
+
+    nvl clear
+
+    """
+    33
+
+    {font=PTSerif.ttf}While researching a topic, a student has taken the
+    following notes:
+
+    {font=PTSerif.ttf}• Cambodia’s Angkor Wat was built in the 1100s to
+    honor the Hindu god Vishnu.\n
+    • It has been a Buddhist temple since the sixteenth
+    century.\n
+    • Decorrelation stretch analysis is a novel digital
+    imaging technique that enhances the contrast
+    between colors in a photograph.\n
+    • Archaeologist Noel Hidalgo Tan applied
+    decorrelation stretch analysis to photographs he
+    had taken of Angkor Wat’s plaster walls.\n
+    • Tan’s analysis revealed hundreds of images
+    unknown to researchers.
+
+    {font=PTSerif.ttf}The student wants to present Tan’s research to an
+    audience unfamiliar with Angkor Wat. Which choice
+    most effectively uses relevant information from the
+    notes to accomplish this goal?
+    """
+
+    nvl clear
+
+    menu:
+        "{font=PTSerif.ttf}A) Tan photographed Angkor Wat’s plaster walls\n
+        \ \ \ \ and then applied decorrelation stretch analysis to\n
+        \ \ \ \ the photographs.":
+            pass
+
+        "{font=PTSerif.ttf}B) Decorrelation stretch analysis is a novel digital\n
+        \ \ \ \ imaging technique that Tan used to enhance the\n
+        \ \ \ \ contrast between colors in a photograph.":
+            pass
+
+        "{font=PTSerif.ttf}C)  Using a novel digital imaging technique, Tan\n
+        \ \ \ \ revealed hundreds of images hidden on the walls\n
+        \ \ \ \ of Angkor Wat, a Cambodian temple.":
+            $ reading_and_writing += 1
+
+        "{font=PTSerif.ttf}D) Built to honor a Hindu god before becoming a\n
+        \ \ \ \ Buddhist temple, Cambodia’s Angkor Wat\n
+        \ \ \ \ concealed hundreds of images on its plaster walls.":
+            pass
 
     jump test4_score
 
