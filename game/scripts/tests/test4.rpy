@@ -116,14 +116,46 @@ label test4_module1_question2:
         "{font=PTSerif.ttf}A) reflect":
             $ reading_and_writing += 1
 
+            """
+            ✅
+            {b}Choice A{/b} is the best answer because it most logically completes the text’s
+            discussion of the Moon’s surface. In this context, “reflect” means show or make
+            apparent. The text states that because the surface of the Moon was softer when
+            the Moon was still forming than it is now, early asteroid and meteoroid impacts
+            “would have left less of an impression” and, as a result, evidence of them may no
+            longer exist. This context supports the idea that the surface of the Moon may not
+            accurately show signs of early impact events.
+            """
+
         "{font=PTSerif.ttf}B) receive":
-            pass
+            """
+            ❌
+            {i}Choice B{/i} is incorrect because it wouldn’t make sense to say that the surface
+            of the Moon may not accurately “receive,” or acquire or experience, early
+            impacts from asteroids or meteoroids. The text indicates that the impacts have
+            already occurred, and it isn’t clear how the Moon’s surface could be accurate
+            or inaccurate in experiencing them.
+            """
 
         "{font=PTSerif.ttf}C) evaluate":
-            pass
+            """
+            ❌
+            {i}Choice C{/i} is incorrect because it wouldn’t
+            make sense to say that the surface of the Moon may not accurately “evaluate,”
+            or determine the significance or condition of, early impacts from asteroids or
+            meteoroids, since that would suggest that it’s possible for the Moon’s surface to
+            make a decision of any kind.
+            """
 
         "{font=PTSerif.ttf}D) mimic":
-            pass
+            """
+            ❌
+            {i}Choice D{/i} is incorrect. In this context, “mimic” would
+            mean to deliberately simulate or closely imitate something. It wouldn’t make sense
+            to say that the surface of the Moon may not accurately mimic early asteroid and
+            meteoroid impacts, since that would suggest that it’s possible for the Moon to
+            deliberately imitate something.
+            """
 
     jump test4_module1_question3
 
