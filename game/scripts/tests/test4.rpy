@@ -182,14 +182,46 @@ label test4_module1_question3:
         "{font=PTSerif.ttf}A) recognizable":
             $ reading_and_writing += 1
 
+            """
+            ✅
+            {b}Choice A{/b} is the best answer because it most logically completes the text’s
+            discussion about handedness in animals. As used in this context, “recognizable”
+            means apparent or identifiable. The text indicates that handedness is “easy to
+            observe in humans,” but that animal-behavior researchers use special tasks to
+            determine handedness in other animals. This context and the use of “less” before
+            the blank indicate that compared with handedness in humans, handedness in
+            other animals is less recognizable.
+            """
+
         "{font=PTSerif.ttf}B) intriguing":
-            pass
+            """
+            ❌
+            {i}Choice B{/i} is incorrect because there’s nothing in the text to suggest that
+            handedness is less “intriguing,” or fascinating, in nonhuman animals than it is in
+            humans. The text focuses on how easy it is to observe handedness in humans
+            as compared with other animals; the text doesn’t suggest that handedness is
+            more fascinating in humans.
+            """
 
         "{font=PTSerif.ttf}C) significant":
-            pass
+            """
+            ❌
+            {i}Choice C{/i} is incorrect because there’s nothing in the
+            text to suggest that handedness is less “significant,” or important or meaningful,
+            in nonhuman animals than it is in humans. The text focuses on how easy it is to
+            observe handedness in humans as compared with other animals; the text doesn’t
+            suggest that handedness is more significant in humans.
+            """
 
         "{font=PTSerif.ttf}D) useful":
-            pass
+            """
+            ❌
+            {i}Choice D{/i} is incorrect
+            because “useful,” or functional or helpful, wouldn’t make sense in context. The
+            text focuses on the ease with which researchers can determine whether an animal
+            or person is right- or left-handed, not on how useful handedness in nonhuman
+            animals is compared with handedness in humans.
+            """
 
     jump test4_module1_question4
 
