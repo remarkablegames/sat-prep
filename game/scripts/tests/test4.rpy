@@ -246,16 +246,44 @@ label test4_module1_question4:
 
     menu:
         "{font=PTSerif.ttf}A) substantial":
-            pass
+            """
+            ❌
+            {i}Choice A{/i} is incorrect because it wouldn’t make sense to say that recognizing
+            Bosch’s influence on Banisadr isn’t “substantial,” or meaningful. The text states
+            that Banisadr himself cites Bosch as an influence.
+            """
 
         "{font=PTSerif.ttf}B) satisfying":
-            pass
+            """
+            ❌
+            {i}Choice B{/i} is incorrect because
+            it wouldn’t make sense to say that it isn’t “satisfying,” or pleasing, to recognize
+            Bosch’s influence on Banisadr. The text states that Banisadr himself cites Bosch
+            as an influence.
+            """
 
         "{font=PTSerif.ttf}C) unimportant":
             $ reading_and_writing += 1
 
+            """
+            ✅
+            {b}Choice C{/b} is the best answer because it most logically completes the text’s
+            discussion of the influences on Banisadr’s work. As used in this context,
+            “unimportant” means trivial or lacking value. “It is by no means” establishes
+            that the word that goes in the blank is contradicted by other information; the
+            material that follows “indeed” later in that sentence provides the contradicting
+            information—namely, that Banisadr himself cites Bosch as an inspiration. In other
+            words, the sentence indicates that Bosch’s influence on Banisadr is significant,
+            and thus recognizing that influence is by no means unimportant.
+            """
+
         "{font=PTSerif.ttf}D) appropriate":
-            pass
+            """
+            ❌
+            {i}Choice D{/i} is incorrect because it wouldn’t make sense to say that
+            recognizing Bosch’s influence on Banisadr isn’t “appropriate,” or suitable. The text
+            indicates that Banisadr himself notes that Bosch’s work has had an effect on him.
+            """
 
     jump test4_module1_question5
 
