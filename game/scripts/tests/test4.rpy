@@ -753,19 +753,42 @@ label test4_module1_question10:
     menu:
         "{font=PTSerif.ttf}A) Mary hides in the garden to avoid doing her
         chores.":
-            pass
+            """
+            ❌
+            {i}Choice A{/i} is incorrect because the text never makes any mention of Mary’s
+            chores.
+            """
 
         "{font=PTSerif.ttf}B) Mary is getting bored with pulling up so many
         weeds in the garden.":
-            pass
+            """
+            ❌
+            {i}Choice B{/i} is incorrect because the text indicates that Mary finds pulling up
+            weeds to be fascinating, not boring.
+            """
 
         "{font=PTSerif.ttf}C) Mary is clearing out the garden to create a space
         to play.":
-            pass
+            """
+            ❌
+            {i}Choice C{/i} is incorrect because Mary thinks of
+            garden activities in and of themselves as play, not as something necessary to do
+            to create a space to play.
+            """
 
         "{font=PTSerif.ttf}D) Mary feels very satisfied when she’s taking care
         of the garden.":
             $ reading_and_writing += 1
+
+            """
+            ✅
+            {b}Choice D{/b} is the best answer because it most accurately states the main idea
+            of the text. The text describes Mary’s activities in an overgrown hidden garden,
+            saying that she was “very much absorbed” and was “only becoming more pleased
+            with her work every hour” rather than getting tired of it. She also thinks of garden
+            activities as a “fascinating sort of play.” Thus, the main idea of the text is that Mary
+            feels very satisfied when taking care of the garden.
+            """
 
     jump test4_module1_question11
 
