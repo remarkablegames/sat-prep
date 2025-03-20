@@ -573,20 +573,53 @@ label test4_module1_question8:
         "{font=PTSerif.ttf}A) It states the hypothesis that Chang and\n
         \ \ \ \ colleagues had set out to investigate using\n
         \ \ \ \ mimosa trees and {i}B. terrenus{/i}.":
-            pass
+            """
+            ❌
+            {i}Choice A{/i} is incorrect because the third sentence doesn’t indicate that Chang and
+            colleagues were investigating any particular hypothesis. According to the text,
+            Chang and colleagues were simply monitoring mimosa trees when the beetles
+            happened to be introduced to the area.
+            """
 
         "{font=PTSerif.ttf}B) It presents a generalization that is exemplified\n
         \ \ \ \ by the discussion of the mimosa trees and\n
         \ \ \ \ {i}B. terrenus{/i}.":
             $ reading_and_writing += 1
 
+            """
+            ✅
+            {b}Choice B{/b} is the best answer because it most accurately describes the function
+            of the third sentence within the overall structure of the text. The third sentence
+            makes a generalization, asserting that evolutionary links between predators and
+            prey can persist across great expanses of time and distance. This generalization
+            is exemplified by the text’s discussion of the relationship between mimosa trees
+            and {i}B. terrenus{/i} beetles. When mimosa trees were introduced to North America
+            in 1785, no {i}B. terrenus{/i} beetles were present, so the relationship between the
+            trees and the beetles that exists in their native East Asia was disrupted. When the
+            beetles were introduced to North America more than 200 years later, however,
+            they quickly attacked mimosa trees, illustrating the generalization that links
+            between predators and prey “can persist across centuries and continents.”
+            """
+
         "{font=PTSerif.ttf}C) It offers an alternative explanation for the\n
         \ \ \ \ findings of Chang and colleagues.":
-            pass
+            """
+            ❌
+            {i}Choice C{/i} is incorrect because the third
+            sentence offers a generalization about the relationship between predators and
+            prey, not an explanation for the findings of Chang and colleagues that differs from
+            an explanation presented elsewhere in the text.
+            """
 
         "{font=PTSerif.ttf}D) It provides context that clarifies why the species\n
         \ \ \ \ mentioned spread to new locations.":
-            pass
+            """
+            ❌
+            {i}Choice D{/i} is incorrect because
+            the third sentence doesn’t discuss any particular species (either the species
+            mentioned elsewhere in the text or any other) and doesn’t help explain why
+            species spread to new locations.
+            """
 
     jump test4_module1_question9
 
