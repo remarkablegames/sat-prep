@@ -329,17 +329,47 @@ label test4_module1_question5:
         \ \ \ \ \ about the new picture":
             $ reading_and_writing += 1
 
+            """
+            ✅
+            {b}Choice A{/b} is the best answer because it most accurately describes the main
+            purpose of the text. The text begins by stating that the new picture “failed to fit
+            in” with the other items that the shop owner has. The text goes on to illustrate
+            that point by describing the other pictures the shop owner has, indicating that
+            the shop owner is fuming because he doesn’t think the new picture belongs in the
+            store. In the second paragraph, however, the text indicates that the shop owner is
+            “secretly proud of his acquisition.” The main purpose of the text is thus to reveal
+            the shop owner’s conflicted feelings about the new picture.
+            """
+
         "{font=PTSerif.ttf}B) To convey the shop owner’s resentment of the\n
         \ \ \ \ person he got the new picture from":
-            pass
+            """
+            ❌
+            {i}Choice B{/i} is incorrect because the text doesn’t suggest that the shop owner
+            resents the young man who sold him the new picture; in fact, the text gives
+            no indication of the owner’s feelings about the young man at all.
+            """
 
         "{font=PTSerif.ttf}C) To describe the items that the shop owner most\n
         \ \ \ \ \ highly prizes":
-            pass
+            """
+            ❌
+            {i}Choice C{/i} is
+            incorrect. Although the text indicates that the new picture is different from the
+            other items in the shop, there’s no suggestion that the shop owner prizes either
+            the new picture or the pictures of the city, pets, and landscapes more than he
+            prizes any other items.
+            """
 
         "{font=PTSerif.ttf}D) To explain differences between the new picture\n
         \ \ \ \ \ and other pictures in the shop":
-            pass
+            """
+            ❌
+            {i}Choice D{/i} is incorrect because the text doesn’t describe
+            what the new picture looks like; rather, the text identifies some of the other kinds
+            of images that the shop owner has and states that they’re different from the new
+            picture without explaining how they’re different.
+            """
 
     jump test4_module1_question6
 
