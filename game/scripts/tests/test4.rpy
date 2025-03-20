@@ -498,20 +498,49 @@ label test4_module1_question7:
     menu:
         "{font=PTSerif.ttf}A) The speaker questions an increasingly prevalent\n
         \ \ \ \ \ attitude, then summarizes his worldview.":
-            pass
+            """
+            ❌
+            {i}Choice A{/i} is incorrect. While the speaker does address an opinion of him that
+            he believes to be untrue, he doesn’t indicate that this attitude has become
+            increasingly prevalent. The speaker also concludes by explaining his goal for the
+            future rather than his current worldview.
+            """
 
         "{font=PTSerif.ttf}B) The speaker regrets his isolation from others,\n
         \ \ \ \ \ then predicts a profound change in society.":
-            pass
+            """
+            ❌
+            {i}Choice B{/i} is incorrect because the text
+            doesn’t portray the speaker as isolated or regretful, and the speaker gestures
+            toward a hope for societal change but doesn’t offer an explicit prediction that it
+            will happen.
+            """
 
         "{font=PTSerif.ttf}C) The speaker concedes his personal\n
         \ \ \ \ \ shortcomings, then boasts of his many\n
         \ \ \ \ \ achievements.":
-            pass
+            """
+            ❌
+            {i}Choice C{/i} is incorrect because the speaker addresses a criticism of
+            him that he believes to be false; he doesn’t admit any personal shortcomings.
+            Moreover, the speaker concludes by stating a goal he has rather than showcasing
+            his achievements.
+            """
 
         "{font=PTSerif.ttf}D) The speaker addresses a criticism leveled against\n
         \ \ \ \ \ him, then announces a grand ambition of his.":
             $ reading_and_writing += 1
+
+            """
+            ✅
+            {b}Choice D{/b} is the best answer because it best describes the overall structure of the
+            text. The speaker begins by stating that he has heard that others are accusing him of
+            seeking to destroy institutions. The speaker then addresses this criticism by stating
+            that he is “neither for nor against institutions.” Instead, the speaker states that his
+            ultimate goal is to instill “the institution of the dear love of comrades” everywhere
+            in the country. Therefore, the overall structure of the text is best described as an
+            address of criticism followed by an announcement of a grand ambition.
+            """
 
     jump test4_module1_question8
 
