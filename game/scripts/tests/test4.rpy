@@ -408,22 +408,55 @@ label test4_module1_question6:
     menu:
         "{font=PTSerif.ttf}A) The speaker assesses a natural phenomenon,\n
         \ \ \ \ \ then questions the accuracy of her assessment.":
-            pass
+            """
+            ❌
+            {i}Choice A{/i} is incorrect because the speaker assesses a natural sight—a “black
+            cypress” tree standing “against a gold, gold sky” like a pointed finger—but doesn’t
+            question the accuracy of her own assessment. Although she wonders why the
+            finger, which is really a tree, is black and why it’s pointing, the speaker doesn’t
+            suggest that her belief that the tree resembles a finger is wrong.
+            """
 
         "{font=PTSerif.ttf}B) The speaker describes a distinctive sight in\n
         \ \ \ \ nature, then ponders what meaning to attribute\n
         \ \ \ \ to that sight.":
             $ reading_and_writing += 1
 
+            """
+            ✅
+            {b}Choice B{/b} is the best answer because it most accurately describes the overall
+            structure of the text. First, the speaker describes observing a “most beautiful”
+            sight: a tree (“black cypress”) standing out from the golden sky behind it, looking
+            like a person’s finger “pointing upwards” and appearing “sensitive” and “exquisite.”
+            Then the speaker wonders about the image’s meaning, asking why the finger
+            is black and why it’s pointing upward. Thus, the text moves from the speaker’s
+            description of a distinctive sight in nature to her pondering about what meaning
+            to attribute to that sight.
+            """
+
         "{font=PTSerif.ttf}C) The speaker presents an outdoor scene, then\n
         \ \ \ \ \ considers a human behavior occurring within\n
         \ \ \ \ \ that scene.":
-            pass
+            """
+            ❌
+            {i}Choice C{/i} is
+            incorrect. Although the speaker describes seeing a “black cypress” tree standing
+            “against a gold, gold sky” like a pointed finger, she wonders about that natural
+            image (asking why the finger, which is really a tree, is black and why it’s pointing)
+            and doesn’t give any indication that any people are present in the scene.
+            """
 
         "{font=PTSerif.ttf}D)  The speaker examines her surroundings, then\n
         \ \ \ \ \ speculates about their influence on her\n
         \ \ \ \ \ emotional state.":
-            pass
+            """
+            ❌
+            {i}Choice D{/i}
+            is incorrect. Although the speaker examines and wonders about one thing in her
+            surroundings—a “black cypress” tree standing “against a gold, gold sky” like a
+            pointed finger—she doesn’t address her own emotional state or consider how it’s
+            affected by her surroundings.
+            """
 
     jump test4_module1_question7
 
