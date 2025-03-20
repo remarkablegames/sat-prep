@@ -667,22 +667,61 @@ label test4_module1_question9:
         "{font=PTSerif.ttf}A) By conceding the importance of hierarchical\n
         \ \ \ \ systems but asserting the greater significance of\n
         \ \ \ \ decentralized collective societies":
-            pass
+            """
+            ❌
+            {i}Choice A{/i} is incorrect because nothing in Text 2 suggests that Graeber and
+            Wengrow believe that decentralized collective societies are more significant
+            than hierarchical systems. Text 2 is focused on Graeber and Wengrow’s view
+            that humans have flexibly shifted among various social structures, not on the
+            importance of particular structures relative to others.
+            """
 
         "{font=PTSerif.ttf}B) By disputing the idea that developments in social\n
         \ \ \ \ structures have followed a linear progression\n
         \ \ \ \ through distinct stages":
             $ reading_and_writing += 1
 
+            """
+            ✅
+            {b}Choice B{/b} is the best answer because it describes the most likely way that Graeber
+            and Wengrow (Text 2) would respond to the “conventional wisdom” presented
+            in Text 1. According to Text 1, the conventional wisdom about human social
+            systems is that they developed through stages, beginning with hunter-gatherer
+            bands, then moving to clan associations, then chiefdoms, and finally arriving at
+            states with bureaucratic structures. Text 2 indicates that Graeber and Wengrow
+            believe that human social systems have been flexible, shifting between different
+            types of structures, including both hierarchical and collective systems, and that
+            these shifts may have even occurred seasonally. This suggests that Graeber and
+            Wengrow would dispute the idea that developments in social structures have
+            followed a linear progression through distinct stages.
+            """
+
         "{font=PTSerif.ttf}C) By acknowledging that hierarchical roles likely\n
         \ \ \ \ weren’t a part of social systems before the rise of\n
         \ \ \ \ agriculture":
-            pass
+            """
+            ❌
+            {i}Choice C{/i} is incorrect
+            because Text 2 doesn’t include any information suggesting that Graeber and
+            Wengrow believe that hierarchies didn’t emerge until after the rise of agriculture.
+            In fact, Text 2 indicates that Graeber and Wengrow cite evidence suggesting that
+            some hunter-gatherer groups formed social structures with hierarchical elements
+            (“communities that included esteemed individuals”) 50,000 years ago, long before
+            the rise of agriculture, which Text 1 says occurred around 12,000 years ago.
+            """
 
         "{font=PTSerif.ttf}D) By challenging the assumption that groupings of\n
         \ \ \ \ hunter-gatherers were among the earliest forms\n
         \ \ \ \ of social structure":
-            pass
+            """
+            ❌
+            {i}Choice D{/i} is incorrect because there’s no information in Text 2 suggesting that
+            Graeber and Wengrow would challenge the assumption that groupings of huntergatherers were among the earliest forms of social structure. Although Text 1 does
+            indicate that hunter-gatherer groups are assumed to be the earliest human social
+            system, Text 2 says only that Graeber and Wengrow believe that some huntergatherer groups made use of different social structures at different times. Text 2
+            doesn’t imply that Graeber and Wengrow doubt that hunter-gatherer groups
+            preceded most other social structures.
+            """
 
     jump test4_module1_question10
 
